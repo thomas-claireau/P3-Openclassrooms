@@ -1,0 +1,477 @@
+// Palettes
+@black: rgb(26, 26, 26);
+@green-light: #7dc2ad;
+@white: #f9fefb;
+@red: #f58184;
+@green: #0b9796;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: @white;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans", roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", sans-serif !important;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: @green-light;
+    color: @white;
+
+    &:hover {
+        background-color: @green;
+        color: @white  !important;
+    }
+}
+
+h1 {
+    font-size: 67px;
+    color: @white;
+
+    @media screen and (max-width: 900px) {
+        font-size: 50px;
+    }
+}
+
+h2 {
+    margin: 90px 0px;
+    font-size: 43px;
+
+    @media screen and (max-width: 900px) {
+        font-size: 35px;
+    }
+}
+
+p {
+    font-size: 15px;
+}
+
+button {
+    font-size: 22px !important;
+}
+
+header#accueil {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)), url('../img/image-header.jpg');
+    background-size: cover;
+    height: 100%;
+
+    nav {
+        padding-top: 10px;
+        text-align: center;
+        background-color: transparent;
+        border-color: transparent;
+
+        .navbar-collapse {
+            @media screen and (max-width: 770px) {
+                background-color: #000000d9;
+            }
+        }
+
+        .navbar-nav {
+            float: none;
+            display: inline-block;
+        }
+
+        ul {
+
+            @media screen and (min-width: 770px) {
+                padding-top: 15px;
+            }
+
+
+        }
+
+        a {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: @white;
+            font-weight: 500;
+            cursor: pointer;
+            background-color: transparent !important;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            display: block;
+            font-weight: 300;
+
+            &:hover {
+                background-color: transparent;
+                color: @green-light;
+            }
+
+            &:focus {
+                background-color: transparent;
+            }
+        }
+    }
+
+    .hero {
+
+        margin-top: 25em;
+
+        p {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 300;
+            color: @white;
+        }
+    }
+
+    .btn {
+        margin-top: 50px;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+
+    .logo {
+        img {
+            width: 300px;
+
+            @media screen and (max-width: 832px) {
+                width: 200px;
+            }
+        }
+    }
+}
+
+section#le-festival {
+
+    h2 {
+        @media screen and (max-width: 900px) {
+            margin-top: 41px;
+        }
+    }
+
+    .titre {
+        p {
+            text-align: center;
+            font-style: italic;
+            width: 70%;
+            margin: auto;
+            margin-top: -57px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .description {
+        p {
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    }
+
+    div[class="col-lg-7"] {
+        text-align: center;
+    }
+
+    .adresse-map {
+        width: 82%;
+        height: 425px;
+        box-shadow: 1px 1px 29px 1px #e0e0e0;
+        margin: auto;
+    }
+
+    button {
+        width: 100%;
+        font-weight: 500;
+        background-color: @green-light;
+        color: @white;
+
+        @media screen and (max-width: 900px) {
+            margin-bottom: 45px;
+        }
+
+        &:hover {
+            background-color: @green;
+        }
+    }
+}
+
+section#films {
+    .modal-dialog {
+        width: 50%;
+    }
+
+    .item {
+        div[class*="col-lg-4"] {
+            text-align: center;
+            transition: all 0.5s ease-out;
+            cursor: pointer;
+
+            &:hover {
+                transition: all 0.5s ease;
+                transform: scale(1.02);
+            }
+        }
+    }
+
+    h4 {
+        margin-top: 33px;
+    }
+
+    a {
+        background-color: @green-light;
+        color: @white;
+
+        &:hover {
+            background-color: @green;
+            color: @white  !important;
+        }
+    }
+}
+
+// slider films
+
+.carousel-control {
+    left: -12px;
+    height: 40px;
+    width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+
+.carousel-control.right {
+    right: -12px;
+}
+
+.carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -57px;
+    margin-right: -19px;
+}
+
+.carousel-indicators li {
+    background: #cecece;
+}
+
+.carousel-indicators .active {
+    background: @green-light;
+}
+
+section#actualites {
+
+    h3,
+    p {
+        margin-top: 30px;
+    }
+
+    h3:before {
+        content: '|';
+        position: relative;
+        top: -2px;
+        margin-right: 15px;
+        color: @red;
+        font-size: 49px;
+    }
+
+    a {
+        width: 30%;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+
+    .btn {
+        background-color: @green-light;
+        color: @white;
+
+        &:hover {
+            background-color: @green;
+        }
+    }
+
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        /* width: 70%; */
+        margin: auto;
+    }
+
+    button {
+        margin: 0;
+    }
+
+    .one {
+        .col-left {
+            height: 400px;
+        }
+
+        .col-right {
+            /*  background-color: @green-light; */
+            height: 400px;
+            padding-left: 40px;
+        }
+    }
+
+    .two {
+        .col-left {
+            /* background-color: @green-light; */
+            height: 400px;
+        }
+
+        .col-right {
+            height: 400px;
+        }
+    }
+
+    .img-1 {
+        background: url('../img/image-article-1.jpg');
+        background-size: cover;
+    }
+
+    .img-2 {
+        background: url('../img/image-article-2.jpg');
+        background-size: cover;
+    }
+
+    .img-3 {
+        background: url('../img/image-article-3.jpg');
+        background-size: cover;
+    }
+
+    .img-4 {
+        background: url('../img/image-article-4.jpg');
+        background-size: cover;
+    }
+
+    .img-5 {
+        background: url('../img/image-article-5.jpg');
+        background-size: cover;
+    }
+
+    .img-6 {
+        background: url('../img/image-article-6.jpg');
+        background-size: cover;
+        background-position-y: 80%;
+    }
+
+    .abstract {
+        margin-top: 32px;
+    }
+
+    .nav-tabs {
+        border: none;
+        text-align: center;
+
+        li.active {
+            a {
+                background-color: transparent;
+            }
+        }
+    }
+
+    li {
+        cursor: pointer;
+        float: none;
+        display: inline-flex;
+        background: @red;
+        border-radius: 50%;
+        height: 41px;
+        margin: 45px 17px;
+
+        a {
+            cursor: pointer;
+            border: none;
+            /* text-align: center; */
+            color: @white;
+            position: relative;
+            top: -33px;
+            left: 1px;
+            font-weight: 700;
+            font-size: 18px;
+            border-radius: 50%;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+section#resa {
+    h2 {
+        margin: 18px 0px 25px 0px;
+    }
+
+    p {
+        text-align: center;
+        font-style: italic;
+    }
+
+    .form {
+
+        @media screen and (min-width: 1200px) {
+            width: 45%;
+        }
+        
+        margin: 42px auto;
+        padding: 0px 30px;
+    }
+
+    button {
+        background-color: @green-light;
+        color: @white;
+        width: 12em;
+
+        &:hover {
+            background-color: @green;
+        }
+    }
+
+
+    label,
+    button {
+        margin-top: 23px;
+    }
+}
+
+footer#footer {
+    padding: 50px 0px;
+    background-color: @red;
+    color: @white;
+
+    a {
+        color: @white;
+    }
+}
+
+.footer-inf {
+    background-color: darken(@red, 10%);
+    color: @white;
+    padding: 9px 0px;
+
+    p {
+        text-align: center;
+    }
+
+    p:nth-child(1) {
+        line-height: 16px;
+    }
+
+    p:nth-child(2) {
+        margin: 0;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+}

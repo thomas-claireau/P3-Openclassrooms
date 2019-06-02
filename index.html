@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Festival des Films de Plein Air</title>
+    <link rel="icon" href="./img/logo mobile.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet/less" type="text/css" href="./css/styles.less" />
+</head>
+
+<body>
+    <header id="accueil">
+        <div id="navbar" class="container-fluid">
+            <nav class="navbar navbar-default navbar-fixed-top transparent">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" data-target=".navbar-collapse" data-toggle="collapse"
+                            class="navbar-toggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="logo"><img src="./img/logo site blanc.png" alt="Logo Festival des films de plein air"></li>
+                            <li class="active accueil"><a href="#">Accueil</a></li>
+                            <li class="festival"> <a href="#">Le festival</a> </li>
+                            <li class="films"> <a href="#">Films</a> </li>
+                            <li class="resa"> <a href="#">Réservation</a> </li>
+                            <li class="actualites"> <a href="#">Actualités</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-12 hero">
+                    <h1>Festival des Films de Plein Air</h1>
+                    <p>du 05 au 08 Aout au Parc Monceau à Paris</p>
+                    <button class="btn btn-lg center-block programmation">Programmation</button>
+                </div>
+            </div>
+        </div>
+        <!--         <div class="container">
+            <nav class="row">
+                <div class="col-lg-6 col-md-4">
+                    <a href="./index.html"><img src="./img/logo site blanc.png"
+                            alt="Logo Festival des Films de Plein Air" width="300"></a>
+                </div>
+                <div class=" col-lg-6 col-md-8 navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active accueil"><a href="#">Accueil</a></li>
+                        <li class="festival"> <a href="#">Le festival</a> </li>
+                        <li class="films"> <a href="#">Films</a> </li>
+                        <li class="resa"> <a href="#">Réservation</a> </li>
+                        <li class="actualites"> <a href="#">Actualités</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-12 hero">
+                    <h1>Festival des Films de Plein Air</h1>
+                    <p>du 05 au 08 Aout au Parc Monceau à Paris</p>
+                    <button class="btn btn-lg center-block programmation">Programmation</button>
+                </div>
+            </div>
+        </div> -->
+    </header>
+    <section id="le-festival">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 titre">
+                    <h2>Un festival en plein air</h2>
+                    <p>Venez profiter de notre agréable cinéma en plein air. Nous diffusions du 05 au 08 Aout une
+                        sélection de films d'auteur à succès !</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 description">
+                    <p>Cette année, le festival des films de plein air se déroule du 05 au 08 Aout, au parc Monceau à
+                        Paris</p>
+                    <p>Fondé en 2017, l'association a pour but de faire découvrir au plus grand nombre des films
+                        d'auteur et tout cela dans une ambiance conviviale et proche de la nature.</p>
+                    <p>Ouvert à tout public, si vous êtes intéressé par les films d'auteur et souhaiter passer un bon
+                        moment, ce festival est fait pour vous !</p>
+                    <p>Afin de faciliter l'organisation du festival, nous vous demenderons de bien vouloir réserver vos
+                        places directement sur ce site, rassurez-vous, le festival est et restera toujours gratuit !</p>
+                    <button class="btn">Je réserve !</button>
+                </div>
+                <div class="col-lg-7">
+                    <iframe class="adresse-map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.89724170667!2d2.3068896974348525!3d48.87923543784568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc+Monceau!5e0!3m2!1sfr!2sfr!4v1554365573614!5m2!1sfr!2sfr"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="films">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Films à l'affiche</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="Carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#Carousel" data-slide-to="1"></li>
+                                <li data-target="#Carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-lg-4 dumbo film">
+                                            <a href="#dumbo" data-toggle="modal">
+                                                <img src="./img/films/dumbo_affiche.jpg" alt="Thumbnail Dumbo"
+                                                    width="220">
+                                            </a>
+                                            <h3>Dumbo</h3>
+                                            <p>Projections : 05-06 Aout</p>
+                                        </div>
+                                        <div class="col-lg-4 rebelles film">
+                                            <a href="#rebelles" data-toggle="modal">
+                                                <img src="./img/films/rebelles_affiche.jpg" alt="Thumbnail Rebelles"
+                                                    width="220">
+                                            </a>
+                                            <h3>Rebelles</h3>
+                                            <p>Projections : 05-06 Aout</p>
+                                        </div>
+                                        <div class="col-lg-4 parc-merveilles">
+                                            <a href="#parc-merveilles" data-toggle="modal">
+                                                <img src="./img/films/le_parc_des_merveilles_affiche.jpg"
+                                                    alt="Thumbnail Le parc des merveilles" width="220">
+                                            </a>
+                                            <h3>Le parc des merveilles</h3>
+                                            <p>Projections : 06-07 Aout</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-lg-4 captain-marvel">
+                                            <a href="#captain-marvel" data-toggle="modal">
+                                                <img src="./img/films/captain_marvel_affiche.jpg"
+                                                    alt="Thumbnail Captain Marvel" width="220">
+                                            </a>
+                                            <h3>Captain Marvel</h3>
+                                            <p>Projections : 06-07 Aout</p>
+                                        </div>
+                                        <div class="col-lg-4 chamboultout">
+                                            <a href="#chamboultout" data-toggle="modal">
+                                                <img src="./img/films/chamboultout_affiche.jpg"
+                                                    alt="Thumbnail Chamboultout" width="220">
+                                            </a>
+                                            <h3>Chamboultout</h3>
+                                            <p>Projections : 07-08 Aout</p>
+
+                                        </div>
+                                        <div class="col-lg-4 shazam">
+                                            <a href="#shazam" data-toggle="modal">
+                                                <img src="./img/films/shazam_affiche.jpg" alt="Thumbnail Shazam"
+                                                    width="220">
+                                            </a>
+                                            <h3>Shazam</h3>
+                                            <p>Projections : 07-08 Aout</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-lg-4 mon-bebe">
+                                            <a href="#mon-bebe" data-toggle="modal">
+                                                <img src="./img/films/mon_bebe_affiche.jpg" alt="Thumbnail Mon bébé"
+                                                    width="220">
+                                            </a>
+                                            <h3>Mon bébé</h3>
+                                            <p>Projections : 07-08 Aout</p>
+                                        </div>
+                                        <div class="col-lg-4 lets-dance">
+                                            <a href="#lets-dance" data-toggle="modal">
+                                                <img src="./img/films/lets_dance_affiche.jpg" alt="Thumbnail Lets dance"
+                                                    width="220">
+                                            </a>
+                                            <h3>Let's Dance</h3>
+                                            <p>Projections : 07-08 Aout</p>
+                                        </div>
+                                        <div class="col-lg-4 henri-pick">
+                                            <a href="#henri-pick" data-toggle="modal">
+                                                <img src="./img/films/mystere_henri_pick_affiche.jpg"
+                                                    alt="Thumbnail Le mystere Henri Pick" width="220">
+                                            </a>
+                                            <h3>Le mystère Henri Pick</h3>
+                                            <p>Projections : 07-08 Aout</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                            <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dumbo" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h3 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/dumbo_affiche.jpg" alt="Affiche Dumbo" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Dumbo</h3>
+                                    <p>Dumbo est un film fantastique américain réalisé par Tim Burton, sorti en 2019. Il
+                                        s'agit
+                                        d'une adaptation en prise de vues réelle du long-métrage d'animation Dumbo des
+                                        studios
+                                        Disney sorti en 1941, lui-même basé sur l'histoire éponyme écrite par Helen
+                                        Aberson et
+                                        illustrée par Harold Pearl, parue en 1939.</p>
+                                    <h4>Synopsis</h4>
+                                    <p>Holt Farrier est veuf, père de deux enfants et ancienne vedette de cirque. Il est
+                                        engagé
+                                        par
+                                        Max Medici, propriétaire d'un cirque itinérant en grande difficulté, pour
+                                        s'occuper d'un
+                                        petit éléphant prénommé Baby Jumbo. Mais les choses tournent mal lors de la
+                                        présentation
+                                        au
+                                        public du nouveau-né. L'éléphanteau est séparé brusquement de sa mère, la
+                                        célèbre Madame
+                                        Jumbo. Racheté par le propriétaire du Dreamland Circus de New York, il se
+                                        retrouve pris
+                                        au
+                                        piège et obligé de voler aux côtés de la trapéziste française Collette Marchant.
+                                    </p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Lundi 05 Aout, 18h00</li>
+                                        <li>Mardi 06 Aout, 18h00</li>
+                                    </ul>
+                                    <a href="index.html#resa" class="btn btn-default resa" data-dismiss="modal">Je
+                                        réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rebelles" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/rebelles_affiche.jpg" alt="Affiche Rebelles" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Rebelles</h3>
+                                    <p>Rebelles est une comédie française réalisée par Allan Mauduit et sortie en 2019.
+                                    </p>
+                                    <h4>Synopsis</h4>
+                                    <p>Sandra, ex-miss Nord-Pas-de-Calais, est embauchée dans la conserverie locale.
+                                        Elle est
+                                        contrainte
+                                        de repousser les avances de son patron libidineux, mais elle finit par le tuer
+                                        accidentellement.
+                                        Deux autres ouvrières assistent à la scène mais, au moment d'appeler les
+                                        secours, les
+                                        trois
+                                        femmes découvrent un sac rempli de billets dans le casier du défunt.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Lundi 05 Aout, 20h00</li>
+                                        <li>Mardi 06 Aout, 20h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="parc-merveilles" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/le_parc_des_merveilles_affiche.jpg"
+                                        alt="Affiche Parc des merveilles" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Le parc des merveilles</h3>
+                                    <p>Le Parc des merveilles est un film d'animation hispano-américain réalisé par
+                                        Dylan Brown,
+                                        sorti
+                                        en 2019.</p>
+                                    <h4>Synopsis</h4>
+                                    <p>Le Parc des Merveilles raconte l’histoire d’un parc d’attractions fabuleux né de
+                                        l’imagination
+                                        extraordinaire d’une petite fille appelée June.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mardi 06 Aout, 20h00</li>
+                                        <li>Mercredi 07 Aout, 22h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="captain-marvel" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/captain_marvel_affiche.jpg" alt="Affiche Captain Marvel"
+                                        width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Captain Marvel</h3>
+                                    <p>Captain Marvel ou Capitaine Marvel au Québec est un film de super-héros américain
+                                        réalisé
+                                        par
+                                        Anna Boden et Ryan Fleck, sorti en 2019. Il s'agit du vingt-et-unième film de
+                                        l'univers
+                                        cinématographique Marvel, débuté en 2008 et du neuvième de la phase III, mettant
+                                        en
+                                        scène le
+                                        super-héros le plus puissant de cet univers.</p>
+                                    <h4>Synopsis</h4>
+                                    <p>Dans les années 1990, Carol Danvers devient l'une des héroïnes les plus
+                                        puissantes qui
+                                        aient
+                                        jamais existé, lorsque la Terre est atteinte par un conflit galactique entre
+                                        deux races
+                                        extraterrestres, les Kree et les Skrulls.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mardi 06 Aout, 22h00</li>
+                                        <li>Mercredi 07 Aout, 20h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="chamboultout" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/chamboultout_affiche.jpg" alt="Affiche Chamboultout"
+                                        width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Chamboultout</h3>
+                                    <p>Chamboultout est une comédie française réalisée par Éric Lavaine, sorti en 2019.
+                                    </p>
+                                    <h4>Synopsis</h4>
+                                    <p>Béatrice célèbre la sortie de son livre où elle raconte l'accident de son mari
+                                        Frédéric,
+                                        accident
+                                        qui lui a fait perdre la vue. Frédéric, de son côté, est devenu un homme obsédé
+                                        par la
+                                        nourriture et disant tout ce qu'il pense, sans aucun filtre. Béatrice, malgré le
+                                        changement
+                                        psychologique de son homme, l'aime toujours autant. Dans son livre, Béatrice a
+                                        également
+                                        inclus
+                                        des anecdotes sur ses amis et, même si elle a changé leurs noms, ils se
+                                        reconnaissent,
+                                        ce
+                                        qui
+                                        provoque quelques remous dans le groupe.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mercredi 07 Aout, 22h00</li>
+                                        <li>Jeudi 08 Aout, 18h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="shazam" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/shazam_affiche.jpg" alt="Affiche Shazam" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Shazam</h3>
+                                    <p>Shazam! est un film de super-héros américain réalisé par David F. Sandberg, sorti
+                                        en
+                                        2019. Il
+                                        s'agit du septième de l'univers cinématographique DC. Il met en scène le
+                                        personnage de
+                                        DC
+                                        Comics
+                                        Shazam (nommé Captain Marvel jusqu'en 2011) créé par C. C. Beck et Bill Parker.
+                                    </p>
+                                    <h4>Synopsis</h4>
+                                    <p>Le jeune Billy Batson se voit doté de pouvoirs par un sorcier nommé Shazam. En
+                                        disant le
+                                        mot
+                                        «
+                                        SHAZAM », dont chaque lettre lui confère les capacités et pouvoirs de plusieurs
+                                        héros et
+                                        figures
+                                        mythologiques (la sagesse de Salomon, la force d'Hercule, l'endurance d'Atlas,
+                                        la
+                                        puissance
+                                        de
+                                        Zeus, le courage d'Achille et la vitesse de Mercure), il devient le super-héros
+                                        capable
+                                        de
+                                        protéger Philadelphie.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mercredi 07 Aout, 20h00</li>
+                                        <li>Jeudi 08 Aout, 18h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mon-bebe" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/mon_bebe_affiche.jpg" alt="Affiche Mon bébé" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Mon bébé</h3>
+                                    <p>Mon bébé est un film français réalisé par Lisa Azuelos, sorti en 2019. Il est
+                                        présenté au
+                                        festival international du film de comédie de l'Alpe d'Huez 2019.</p>
+                                    <h4>Synopsis</h4>
+                                    <p>Jade (18 ans), est la cadette d'une famille de trois enfants. Sa mère Héloïse
+                                        stresse à
+                                        l'idée
+                                        que sa fille passe le baccalauréat et qu'elle parte ensuite faire ses études
+                                        supérieures
+                                        au
+                                        Canada, quittant le nid familial. Fusionnelle avec sa fille, Héloïse repense à
+                                        leurs
+                                        souvenirs
+                                        partagés, et s'improvise cinéaste avec son iPhone pour profiter de ces derniers
+                                        moments
+                                        ensemble
+                                        et que rien ne lui échappe.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mercredi 07 Aout, 19h00</li>
+                                        <li>Jeudi 08 Aout, 20h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="lets-dance" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/lets_dance_affiche.jpg" alt="Affiche Lets dance" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Let's Dance</h3>
+                                    <p>Let’s Dance est une comédie dramatique coécrite et réalisée par Ladislas Chollat,
+                                        sortie
+                                        en
+                                        2019.
+                                        Inspiré de StreetDance 3D sorti en 2010, il raconte l'alliance inattendue du
+                                        hip-hop et
+                                        de
+                                        la
+                                        danse classique.</p>
+                                    <h4>Synopsis</h4>
+                                    <p>L'histoire est centrée sur Joseph, un jeune danseur de hip-hop. Un jour, il
+                                        décide de
+                                        quitter
+                                        l'entreprise d'artisan couvreur de son père pour participer à un concours de
+                                        danse à
+                                        Paris,
+                                        les
+                                        Masters of Hip-Hop. Avec sa copine Emma et son ami Karim, il parvient à trouver
+                                        une
+                                        place
+                                        dans
+                                        le crew de Youri. Mais alors que l'équipe parvient à se qualifier pour la finale
+                                        du
+                                        concours,
+                                        une trahison d'Emma le conduit à abandonner la compétition.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mercredi 07 Aout, 22h00</li>
+                                        <li>Jeudi 08 Aout, 20h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="henri-pick" class="row description-film modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Plus d'informations</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/films/mystere_henri_pick_affiche.jpg"
+                                        alt="Affiche Le mystere henri pick" width="300">
+                                </div>
+                                <div class="col-lg-8">
+                                    <h3>Le mystère Henri Pick</h3>
+                                    <p>Le Mystère Henri Pick est une comédie française coécrite et réalisée par Rémi
+                                        Bezançon,
+                                        sortie en
+                                        20191. Il s'agit de l’adaptation du roman homonyme de David Foenkinos publié en
+                                        2016.
+                                    </p>
+                                    <h4>Synopsis</h4>
+                                    <p>Dans une étrange bibliothèque au cœur de la Bretagne, une jeune éditrice découvre
+                                        un
+                                        manuscrit
+                                        extraordinaire qu'elle décide aussitôt de publier. Le roman devient un
+                                        best-seller. Mais
+                                        son
+                                        auteur, Henri Pick, un pizzaïolo breton décédé deux ans plus tôt, n'aurait selon
+                                        sa
+                                        veuve
+                                        jamais
+                                        écrit autre chose que ses listes de courses. Persuadé qu'il s'agit d'une
+                                        imposture, un
+                                        célèbre
+                                        critique littéraire décide de mener l'enquête, avec l'aide inattendue de la
+                                        fille de
+                                        l'énigmatique Henri Pick.</p>
+                                    <h4>Séances :</h4>
+                                    <ul>
+                                        <li>Mercredi 07 Aout, 22h00</li>
+                                        <li>Jeudi 08 Aout, 22h00</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-default resa">Je réserve ma place</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-info" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section id="actualites">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Actualités du festival</h2>
+                </div>
+                <div class="tab-content">
+                    <div id="page-1" class="tab-pane active">
+                        <div class="row one">
+                            <div class="col-lg-6 col-left img-1">
+                                <!-- <img src="https://via.placeholder.com/400x250" alt=""> -->
+                            </div>
+                            <div id="article-1" class="col-lg-6 col-right">
+                                <h3>Présentation du festival</h3>
+                                <p>Le 03/03/2019, à 14h00</p>
+                                <p style="margin-top: 0px;">Par Jennifer Viala</p>
+                                <p class="abstract">Le festival des films de plein air diffuse du 05 au 08 Aout, de 18h
+                                    à minuit des films d'auteurs mais pas que...</p>
+                                <a href="#" class="btn btn-default btn-lg">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="row two">
+                            <div id="article-2" class="col-lg-6 col-left">
+                                <h3>Un cinéma en plein air ?</h3>
+                                <p>Le 03/03/2019, à 14h00</p>
+                                <p>Par Jennifer Viala</p>
+                                <p class="abstract">Les cinémas en plein air sont en pleine expansion à travers le
+                                    monde. Découvrez pourquoi dans cette article...</p>
+                                <a href="#" class="btn btn-default btn-lg">Lire la suite</a>
+                            </div>
+                            <div class="col-lg-6 col-right img-2">
+                                <!-- <img src="https://via.placeholder.com/400x250" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-2" class="tab-pane fade">
+                        <div class="row one">
+                            <div class="col-lg-6 col-left img-3">
+                                <!-- <img src="https://via.placeholder.com/400x250" alt=""> -->
+                            </div>
+                            <div id="article-1" class="col-lg-6 col-right">
+                                <h3>Comment s'y rendre ?</h3>
+                                <p>Le 03/03/2019, à 14h00</p>
+                                <p>Par Jennifer Viala</p>
+                                <p class="abstract">Se rendre au festival des films de plein air est tout ce qu'il y a
+                                    de plus simple ! Direction le parc Monceau, à Paris...</p>
+                                <a href="#" class="btn btn-default btn-lg">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="row two">
+                            <div id="article-2" class="col-lg-6 col-left">
+                                <h3>Les films projetés</h3>
+                                <p>Le 03/03/2019, à 14h00</p>
+                                <p>Par Jennifer Viala</p>
+                                <p class="abstract">Découvrez dans cet article les films projetés cette années, du 05 au
+                                    08 aout 2019, de 18h à minuit</p>
+                                <a href="#" class="btn btn-default btn-lg">Lire la suite</a>
+                            </div>
+                            <div class="col-lg-6 col-right img-4">
+                                <!-- <img src="https://via.placeholder.com/400x250" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-3" class="tab-pane fade">
+                        <div class="row one">
+                            <div class="col-lg-6 col-left img-5">
+                                <!-- <img src="https://via.placeholder.com/400x250" alt=""> -->
+                            </div>
+                            <div id="article-1" class="col-lg-6 col-right">
+                                <h3>Quel genre de film ?</h3>
+                                <p>Le 03/03/2019, à 14h00</p>
+                                <p>Par Jennifer Viala</p>
+                                <p class="abstract">Découvrez dans cet article quels genres de films nous diffusons !
+                                </p>
+                                <a href="#" class="btn btn-default btn-lg">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="row two">
+                            <div id="article-2" class="col-lg-6 col-left">
+                                <h3>L'histoire du festival</h3>
+                                <p>Le 03/03/2019, à 14h00</p>
+                                <p>Par Jennifer Viala</p>
+                                <p class="abstract">Comment le festival est-il né ? Découvrez dans cet article
+                                    l'histoire du festival des films de plein air !</p>
+                                <a href="#" class="btn btn-default btn-lg">Lire la suite</a>
+                            </div>
+                            <div class="col-lg-6 col-right img-6">
+                                <!-- <img src="https://via.placeholder.com/400x250" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#page-1" data-toggle="tab">1</a></li>
+                                <li><a href="#page-2" data-toggle="tab">2</a></li>
+                                <li><a href="#page-3" data-toggle="tab">3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resa">
+        <div class="container">
+            <div class="row">
+                <h2>Réserver ma place</h3>
+                    <p>Merci de remplir le formulaire autant de fois qu'il vous faut de place</p>
+            </div>
+        </div>
+        <div class="container form">
+            <div class="row">
+                <form action="" class="form-horizontal">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label for="prenom">Prénom : </label>
+                            <input type="text" id="prenom" class="form-control">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="nom">Nom : </label>
+                            <input type="text" id="nom" class="form-control">
+                        </div>
+                    </div>
+                    <!-- <div class="row"> -->
+                    <div>
+                        <label for="email">Email : </label>
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                    <div>
+                        <label for="films">Sélectionnez un film : </label>
+                        <select id="select-films" class="form-control">
+                            <option value="" selected></option>
+                            <optgroup label="05/08/19">
+                                <option value="">Dumbo - 18h00</option>
+                                <option value="">Rebelles - 20h00</option>
+                            </optgroup>
+                            <optgroup label="06/08/19">
+                                <option value="">Dumbo - 18h00</option>
+                                <option value="">Rebelles - 20h00</option>
+                                <option value="">Le parc des merveilles - 20h00</option>
+                                <option value="">Captain Marvel - 22h00</option>
+                            </optgroup>
+                            <optgroup label="07/08/19">
+                                <option value="">Le parc des merveilles - 22h00</option>
+                                <option value="">Captain Marvel - 20h00</option>
+                                <option value="">Chamboultout - 20h00</option>
+                                <option value="">Shazam - 20h00</option>
+                                <option value="">Mon bébé - 19h00</option>
+                                <option value="">Let's Dance - 22h00</option>
+                                <option value="">Le mystère Henri Pick - 22h00</option>
+                            </optgroup>
+                            <optgroup label="08/08/19">
+                                <option value="">Chamboultout - 18h00</option>
+                                <option value="">Shazam - 18h00</option>
+                                <option value="">Mon bébé - 20h00</option>
+                                <option value="">Let's dance - 20h00</option>
+                                <option value="">Le mystère Henri Pick - 22h00</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Laissez-nous un message : (optionnel) </label>
+                        <textarea name="message" id="message" class="form-control" cols="30" rows="5"
+                            placeholder="Votre message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-default center-block">Réserver</button>
+                    </div>
+                    <!-- </div> -->
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="./img/logo mobile.png" alt="logo-footer">
+                </div>
+                <div class="col-lg-4">
+                    <h3>Le festival</h3>
+                    <p>Cette année, le festival des films de plein air se déroule du 05 au 08 Aout, au parc Monceau à
+                        Paris
+
+                        Fondé en 2017, l'association a pour but de faire découvrir au plus grand nombre des films
+                        d'auteur et tout cela dans une ambiance conviviale et proche de la nature.
+
+                        Ouvert à tout public, si vous êtes intéressé par les films d'auteur et souhaiter passer un bon
+                        moment, ce festival est fait pour vous !</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-1">
+                    <h3>Coordonnées</h3>
+                    <p>Jennifer Viala, organisatrice</p>
+                    <p>Parc Monceau, Paris</p>
+                    <p>(+33) 6 00 00 00 00</p>
+                    <p><a href="mailto:jennifer.viala@films-plein-air.org">jennifer.viala@films-plein-air.org</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="container-fluid">
+        <div class="row footer-inf">
+            <p>Copyright 2019 - <a href="https://thomas-claireau.fr" target="_blank">Thomas Claireau</a></p>
+            <p>Projet 3 - Parcours OpenClassrooms Développeur d'application Frontend</p>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
