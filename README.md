@@ -51,6 +51,6 @@ Point d'amélioration :
 
 Projet validé, bonne chance pour la suite.
 
-Cliquez sur l'image ci-dessous pour voir la vidéo de soutenance 🎬 👇
+### 🎬 Cliquez sur l'image ci-dessous pour voir la vidéo de soutenance 👇
 
 [![Regarder la vidéo de soutenance](https://img.youtube.com/vi/xmMUg-0Jn_4/maxresdefault.jpg)](https://youtu.be/xmMUg-0Jn_4)
